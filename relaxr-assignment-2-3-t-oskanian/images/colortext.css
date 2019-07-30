@@ -1,0 +1,25 @@
+h1 {
+    color: red
+} 
+ul {
+    color: purple;
+}
+.background-goldenrod>p {
+    color: green;
+}
+.turquoise-text {
+    color: turquoise;
+}
+.background-goldenrod {
+    background-color: goldenrod;
+}
+#yellow-text {
+    color: yellow;
+}
+#test-class-2 {
+    color: brown;
+}
+p {
+    background-color: brown;
+    text: white;
+}

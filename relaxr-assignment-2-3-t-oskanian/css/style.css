@@ -1,0 +1,208 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+      /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;box-sizing: border-box;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+
+header {
+  width: 100%;
+  background: url(../images/header_bg.jpg) rgb(134,141,157);
+  background-size: cover;  
+}
+footer {
+  background-color: rgba(18,18,18,0.8);
+  height: 200px;
+}
+h1 {
+  text-align: left;
+  font-size: 24px;
+  padding: 25px 0 0 50px;
+  color: white;
+  height: 200px;
+  width: auto;
+  font-weight: 800; 
+}
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  height: 80px;
+  width: auto;
+  text-align: center;
+  color: white;
+}
+nav a {
+  font-size: 14px;
+  font-weight: 800;
+  color: #033048;
+  background-color: #f9e42e;
+  padding: 8px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+nav>ul {
+  height: 220px;
+  width: auto;
+  text-align: center;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 35px 0 15px 50px;
+}
+/* why are my bullets / discs not appearing reset file :( */
+h3 + p {
+  font-size: 13px;
+  font-weight: 300;
+  padding: 5px 0 28px 50px;
+  width: 350px;
+}
+ul.benefits-list {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+li.benefits-list-items {
+  font-size: 13px;
+  font-weight: 300;
+  margin: 2px 0 5px 70px;
+  width: 240px;
+  list-style-position: inside;
+}
+.color-606161 {
+  color: #606161;
+}
+div.quote-container {
+  width: 100%;
+  margin: auto;
+  height: 220px;
+  background: url(../images/testimonial_bg.jpg) rgb(134,141,157);
+  background-size: cover;
+  margin-top: 30px;
+  z-index: -2;
+  opacity: 0.8;
+  text-align: center;
+}
+#quote {
+  font-size: 18px;
+  font-weight: 300i;
+  font-style: italic; 
+  color: white; 
+  text-align: center;
+  padding-top: 50px;
+  height: auto;
+  width: 300px;
+  display: inline-block;
+}
+#amanda-intuit {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  padding-top: 8px;
+}
+div.sign-up-container {
+  height: 70px;
+  background-color: #f9e42e;
+  text-align: center;
+}
+.sign-up-container a {
+  font-size: 12px;
+  color: white;
+  font-weight: 800;
+  border-radius: 5px;
+  background-color: #033048;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 25px;
+  display: inline-block;
+  margin: 20px;
+  width: 150px;
+}
+footer>h2 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #f9e42e;
+  padding: 30px 0 0 0;
+}
+#social-footer-div {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+footer h6 {
+  font-size: 9px;
+  font-weight: 600;
+  color:white;
+  text-align: center;
+  margin-top: 50px;
+}
+.social-footer img {
+  height: 18px;
+  margin-right: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
