@@ -59,16 +59,204 @@ body {
 
 /* Center the container */
 #container {
+  height: 2000px;
   width: 960px;
   margin: auto;
+  background-color: #f0efef;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/******************************************
+/* ------------HEADER-----------------
+/*******************************************/
+
+.relaxr{
+  flex-grow: 5;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+
+header>ul>li{
+  flex-grow: 1;
+  font-size: 16px;
+  color: #f9e42e;
+  font-size: 20px;
+}
+
+header>ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-top: 30px;
+  padding-left: 50px;
 }
 
 header {
-
+  height: 6%;
+  background-color: #033048;
 }
 
-footer {
+/******************************************
+/* ------------BLOG-----------------
+/*******************************************/
+.blog{
+  height: 70%;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* ------------BLOG MAIN-----------------*/
+.read-more{
+  font-weight: 600;
+  text-align: end;
+  color: rgb(36, 55, 80);
+}
 
+.first-letter{
+  float: left;
+  font-size: 45px;
+  font-weight: bolder;
+  padding-right: 10px;
+}
+
+.image-top{
+  background: url(../images/blog_photo1.jpg)
+}
+
+.image-bottom{
+  background: url(../images/blog_photo2.jpg)
+}
+
+.image-top,
+.image-bottom{
+  background-size: cover;
+  background-position: center;
+  height:270px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.header{
+  height: 65px;
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(36, 55, 80);
+}
+
+.text{
+  font-size: 16px;
+  color: #606161;
+}
+
+.blog>.main{
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 75%;
+}
+/* ------------BLOG SIDE-----------------*/
+.blog>.side{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style: none;
+  color: rgb(36, 55, 80);
+  width: 23%;
+  height: 70%;
+}
+
+.categories>ul{
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.categories>ul>li{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.blog>.side>.categories{
+  flex-grow: .5;
+}
+
+.blog>.side>.about{
+  font-size: 28px;
+  font-weight: 700;
+  flex-grow: .5;
+}
+
+.blog>.side>.about>p{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.ad-unit{
+  background-color: white;
+  flex-grow: 3;
+  font-size: 24px;
+}
+/******************************************
+/* ------------SIGN UP-----------------
+/*******************************************/
+.sign-up {
+  height: 6%;
+  background-color: #f9e42e;
+  padding-top: 30px;
+}
+
+.sign-up>Button{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(36, 55, 80);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/******************************************
+/* ------------FOOTER-----------------
+/*******************************************/
+footer {
+  height: 18%;
+  background-color: #121212;
+  padding-top: 50px;
+  color:  #f9e42e;
+  text-align:  center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.images{
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.twitter{
+  width: 50%;
+  float: left;
+}
+
+.facebook{
+  width: 50%;
+  float: left;
+}
+
+Footer>p{
+  color: white;
+  font-family: semibold;
+  font-size: 20px;
+  clear: both;
+  padding-top: 25px;
 }
 
 /******************************************
