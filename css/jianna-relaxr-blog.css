@@ -1,0 +1,240 @@
+/*
+Project Name: Relaxr Blog
+Client: Relaxr
+Author: Jianna Park
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  background-color: #f0efef;
+}
+
+header {
+  background-color: #033048;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 800;
+  padding: 20px;
+  margin-left: 60px;
+}
+
+.menu {
+  margin-right: 80px;
+}
+
+a {
+  font-size: 24px;
+  font-weight: 600;
+  color: #f9e42e;
+  text-decoration: none;
+  margin: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#body {
+  height: 1800px;
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  float: left;
+  width: 700px;
+  margin-right: 10px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #033048;
+}
+
+p {
+  font-size: 24px;
+  font-weight: 200;
+  color: #606161;
+}
+
+.left p:first-letter {
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 70px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: -5px;
+}
+
+.read-more {
+  font-size: 24px;
+  font-weight: 600;
+  color: #033048;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+
+.right {
+  float: right;
+  width: 240px;
+  margin-left: 10px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #033048;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 200;
+  color: #606161;
+  padding-left: 0;
+}
+
+.about {
+  font-size: 22px;
+  font-weight: 200;
+  margin-bottom: 0;
+}
+
+.learn-more {
+  font-size: 22px;
+  font-weight: 600;
+  color: #033048;
+  margin: 0;
+}
+
+.ad {
+  color: #033048;
+  height: 500px;
+  background-color: white;
+  text-align: center;
+  font-size: 36px;
+  width: 220px;
+  padding-top: 10px;
+  margin-top: 40px;
+}
+
+.yellow {
+  background-size: cover;
+  height: 120px;
+  background-color: #f9e42e; 
+  padding: 30px;
+}
+
+.sign-up {
+  padding: 15px 0px;
+  margin: auto;
+  font-size: 24px;
+  font-weight: 800;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  width: 320px;
+  background-color: #033048;
+}
+
+footer {
+  background: #121212;
+  text-align: center;
+  height: 400px;
+}
+  
+p.logo {
+  color: #f9e42e;
+  font-size: 60px;
+  font-weight: 800;
+  padding-top: 50px;
+  margin-top: 0;
+}
+  
+.logo a {
+  margin: 20px 15px;
+  margin-right: 20px;
+  align-content: center;
+}
+  
+.copyright {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  margin: auto;
+  margin-top: 60px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
