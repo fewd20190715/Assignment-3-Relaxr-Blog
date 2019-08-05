@@ -1,0 +1,185 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', serif;
+    background-color: #f0efef;
+}
+
+.header {
+    background-color: #033048;
+    padding: 20px 20px;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header ul li a {
+    color: #f9e42e;
+    text-decoration: none;
+    font-weight: 500;
+    padding-right: 15px;
+}
+
+.header ul li a:hover {
+    opacity: .5;
+}
+
+.header ul li.logo a {
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    align-self: flex-start;
+    margin-right: 200px;
+}
+
+.nav {
+    font-size: 24px;  
+    font-weight: 600;
+}
+
+img:hover {
+    opacity: 0.3;
+}
+
+.left {
+    width: 700px;
+    padding-top: 30px;
+    padding-left: 55px;
+    padding-bottom: 100px;
+}
+
+.left h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color:#033048;
+    margin-top: 30px;
+}
+
+.left h2:hover{
+    opacity: .5;
+}
+
+.left p {
+    font-size: 24px;
+    font-weight: 300;
+    initial-letter: 3;
+    color: #606161;
+}
+
+p::first-letter {
+    font-size: 200%;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: right;
+    color: #033048;
+    margin-top: 40px;
+}
+
+h3:hover {
+    opacity: .5;
+}
+
+.right {
+    width: 240px;
+    color: #033048;
+    float: right;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.right h3 {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.right h2 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.right ul {
+    padding-left: 0;
+}
+
+.right ul li {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.right ul li:hover {
+    transform: scale(1.2);
+}
+
+button {
+    font-weight: 800;
+    font-size: 14px;
+    border-radius: 5px;
+    text-align: center;
+    width: 20%;
+    margin-left: 42%;
+    margin-right: 42%;
+    display: inline-block;
+    border: 5px solid #033048;
+    background-color: #033048;
+    color: white;
+}
+
+.btn-sign-up:hover {
+    background-color: white;
+    color: #033048;
+}
+
+.sign-up {
+    background-color: #f9e42e;
+    padding: 25px;
+    color: blue;
+    clear: both;
+}
+
+
+
+footer {
+    padding: 30px;
+    background-color:#606161;
+}
+
+footer h1 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #f9e42e;
+    text-align: center;  
+}
+
+.twitter {
+    margin-left: 40%;
+    float: left;
+    padding-bottom: 15px;
+}
+
+.facebook {
+    width: 480px;
+    margin-right: auto;
+    float: right;
+    padding-bottom: 15px;
+}
+
+h4 {
+    font-size: 9px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    clear: both;
+}
