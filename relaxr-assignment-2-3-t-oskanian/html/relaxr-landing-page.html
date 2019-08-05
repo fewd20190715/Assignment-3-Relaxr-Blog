@@ -15,22 +15,26 @@
 
 	<body>
 		<div>
-				<header>
-						<div id="header-h1-div">
-							<h1>Relaxr</h1>
-						</div>
-						<div id="header-nav-div">
-							<nav>
-								<ul>
-									<li><a href="relaxr-landing-page.html">About</a></li>
-									<li><a href="">FAQ</a></li>
-									<li><a href="">Team</a></li>
-									<li><a href="">Contact Us</a></li>
-									<li><a href="relaxr-blog.html">Blog</a></li>
-								</ul>
-							</nav>
-						</div>
-				</header>
+
+			<header>
+
+				<div id="header-h1-div">
+					<h1>Relaxr</h1>
+				</div>
+
+				<div id="header-nav-div">
+					<nav>
+						<ul>
+							<li><a href="relaxr-landing-page.html">About</a></li>
+							<li><a href="">FAQ</a></li>
+							<li><a href="">Team</a></li>
+							<li><a href="">Contact Us</a></li>
+							<li><a href="relaxr-blog.html">Blog</a></li>
+						</ul>
+					</nav>
+				</div>
+
+			</header>
 
 			<div class="color-606161">
 				<h3 id="benefits-h3">Benefits</h3>
@@ -49,19 +53,24 @@
 			</div>
 
 			<div class="sign-up-container">
-					<a href="http://www.relaxr.com/sign-up">Sign Up Now!</a>
+				<a href="#"  onclick="return confirm_alert(this);">Sign Up Now!</a>
+				<script type="text/javascript">
+					function confirm_alert(node) {
+						return alert("We're Not Ready For Sign-Ups...Yet.");
+					}
+				</script>
 			</div>
 
 		</div>
 
-			<footer>
-				<h2 id="footer-relaxr-h2">Relaxr</h2>	
-				<div id="social-footer-div">
-					<a href="http://www.twitter.com"  class="social-footer"><img src="../images/twitter.png" alt="twitter logo link"></a>
-					<a href="http://www.facebook.com"  class="social-footer"><img src="../images/facebook.png" alt="facebook logo link"></a>
-				</div>
-				<h6>Copyright 2015. Relaxr.</h6>
-			</footer>
+		<footer>
+			<h2 id="footer-relaxr-h2">Relaxr</h2>	
+			<div id="social-footer-div">
+				<a href="http://www.twitter.com"  class="social-footer"><img src="../images/twitter.png" alt="twitter logo link"></a>
+				<a href="http://www.facebook.com"  class="social-footer"><img src="../images/facebook.png" alt="facebook logo link"></a>
+			</div>
+			<h6>Copyright 2015. Relaxr.</h6>
+		</footer>
 
 	</body>
 </html>
