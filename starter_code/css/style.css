@@ -1,10 +1,9 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Relaxr Blog
+Client: 
+Author: Rohit Vaswani
 Developer @GA in NYC
 */
-
 
 /******************************************
 /* SETUP
@@ -50,31 +49,209 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-}
-
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-
-/* Center the container */
-#container {
-  width: 960px;
-  margin: auto;
-}
-
-header {
-
-}
-
-footer {
-
+     background-color: #f0efef;
 }
 
 /******************************************
-/* ADDITIONAL STYLES
+/* LAYOUT AND STYLES
 /*******************************************/
 
+/* nav bar */
+.flex-nav{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding:25px;
+  background: #033048; 
+}
+
+.flex-nav a{
+  color:#f9e42e;
+  font-weight:300;
+  font-size:14px;
+  text-decoration: none;
+}
+
+.flex-nav .relaxrHome{
+  color:white;
+  font-weight:600;
+  font-size:24px;
+  padding-right:50%;
+  align-self: flex-start;
+}
+
+/*blog section-row*/
+.bottomContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+/*left column*/
+.flex-leftContainer{
+  display:flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  padding-left: 50px;
+  padding-right:15px;
+  width:70%;
+}
+
+/*top left*/
+.flex-leftContainer #topLeftBox{
+  border-bottom:1px solid #033048;
+}
+
+.flex-leftContainer #topLeftBox h1{
+ color:#033048; 
+ font-weight:600;
+ font-size:24px;
+}
+
+.flex-leftContainer #topLeftBox p{
+  color:#033048; 
+  font-weight:300;
+  font-size:14px;
+  text-align: justify;
+  padding-right:22%;
+ }
+
+.flex-leftContainer #topLeftBox a{
+  color:#033048; 
+  font-weight:600;
+  font-size:14px;
+  text-decoration: none;
+  text-align: right;
+ }
+
+/*bottom left*/
+.flex-leftContainer #bottomLeftBox{
+  border-bottom:1px solid #033048;
+}
+
+.flex-leftContainer #bottomLeftBox h1 {
+  color:#033048; 
+  font-weight:600;
+  font-size:24px;
+ }
+
+ .flex-leftContainer #bottomLeftBox p{
+  color:#033048; 
+  font-weight:300;
+  font-size:14px;
+  text-align: justify;
+  padding-right:22%;
+ }
+
+ .flex-leftContainer #bottomLeftBox a{
+  color:#033048; 
+  font-weight:600;
+  font-size:14px;
+  text-decoration: none;
+  text-align: right;
+ }
 
 
+/*right column*/
+ .flex-rightContainer{
+  display:flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  padding-left: 15px;
+  padding-right:15px;  
+  width:30%;
+}
 
+.flex-rightContainer #firstBox h1{
+  color:#033048; 
+  font-size:24px;
+  font-weight:800;
+}
+
+.flex-rightContainer #firstBox ul{
+  font-size:14px;
+  font-weight:300;
+  list-style: none;
+  text-decoration: none;
+}
+
+.flex-rightContainer #secondBox h1{
+  color:#033048; 
+  font-size:24px;
+  font-weight:800;
+}
+
+.flex-rightContainer #secondBox p{
+  font-size:14px;
+  font-weight:300;
+  text-align:justify;
+}
+
+.flex-rightContainer #secondBox a{
+  font-size:14px;
+  font-weight:600;
+  list-style: none;
+  text-decoration: none;
+  text-align: right;
+}
+
+.flex-rightContainer #thirdBox {
+ background-color: white;
+ margin-top:15px;
+ padding-top:15px;
+ padding-bottom:400px;
+ text-align: center;
+}
+
+.flex-rightContainer #thirdBox h1{
+  color:#033048; 
+  font-size:24px;
+  font-weight:800;
+}
+
+.signUp{
+  background-color: #f9e42e;
+  text-align: center;
+  padding-top:15px;
+  padding-bottom: 15px;
+}
+
+.signUp Button{
+  background-color: #033048;
+  color:white;
+}
+
+/*lower section*/
+#lowerContainer{
+  background-color: #121212;
+}
+
+#lowerContainer h1{
+  color:yellow;
+  font-size: 24px;
+  font-weight:800; /*extra bold*/
+  text-align: center;
+  padding:10px;
+}
+
+#lowerContainer #socialIcon1{
+  display: inline-block;
+  height:25px;
+  width:25px;
+  padding-left:47%;
+  margin:12px;
+}
+
+#lowerContainer #socialIcon2{
+  display: inline-block;
+  height:25px;
+  width:25px;
+  margin-left:12px;
+}
+
+#lowerContainer footer{
+  color:white;
+  font-size: 9px;
+  font-weight:600; /*medium bold*/
+  text-align: center;
+  padding:10px;
+}
