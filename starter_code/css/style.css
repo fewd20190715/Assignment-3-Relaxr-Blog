@@ -11,6 +11,9 @@ Developer @GA in NYC
 /*******************************************/
 
 /* Box Model Hack */
+html {
+  box-sizing: border-box;
+}
 * {
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
@@ -46,10 +49,12 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
+  background-color:#f0efef;
+
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: Helvetica, Arial, sans-serif
 }
 
 
@@ -58,17 +63,130 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
-  width: 960px;
+.relaxr-wrapper {
+  width: 100%;
   margin: auto;
+  padding: 40px; 
+  background-color:#033048;
 }
 
-header {
+#relaxr {
+  margin-right:auto;
+  font-size: 30px;
+  font-weight: bolder;
+  color:white;
+}
 
+.relaxr-nav {
+  color:#f9e42e;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.div-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.main-heading {
+  font-weight: semibold;
+  font-weight: semibold;
+  font-size:40px;
+  color: #033048;
+  margin-bottom:20px;
+}
+
+a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #033048;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.side-heading  {
+  font-size: 30px;
+  font-weight: extrabold;
+  color: #033048;
+}
+
+#text {
+  font-size: 24px;
+  font-weight: lighter;
+  margin-bottom: 40px; 
+}
+
+img {
+  width:100%;
+  margin-bottom: 20px;
+  }
+
+.ad-pic {
+  max-width: 250px;
+  max-height: 550px;
+}
+  
+.format{	
+  flex: 3;
+  padding: 110px;
+}
+
+.sidebar {
+  flex: 2;
+  padding:50px;
+}
+
+button {
+  border-radius: 5px;
+  background-color: #033048;
+  color:white;
 }
 
 footer {
+background-color:#121212;
+color:whitesmoke;
+display:flex;
+justify-content:center;
+padding:70px;
+padding-bottom: 30px;
+}
 
+footer h1{
+  font-size: 30px;
+  font-weight: bolder;
+  color:#f9e42e;
+  padding-bottom: 100px;
+
+}
+
+
+.signup-container {
+  background-color: #f9e42e;
+  text-align: center;
+}
+
+.signup-container button {
+  font-size: 24px;
+  color: whitesmoke;
+  border-radius: 5px;
+  background-color:#033048;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 10px;
+  padding-left:45px;
+  padding-right:45px;
+}
+
+.social-container {
+  margin-left:30px;
+}
+
+.relaxr-c {
+  color:whitesmoke;
+}
+
+.copy {
+  margin-left:30px;
 }
 
 /******************************************
