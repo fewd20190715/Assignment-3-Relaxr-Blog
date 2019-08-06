@@ -1,0 +1,19 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%
+}
+
+.intro {
+    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+      display: table;
+      top: 0;
+      background-size:cover; 
+}
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width:100%;
+    max-width: none;
+}
