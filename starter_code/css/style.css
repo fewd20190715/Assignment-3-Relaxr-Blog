@@ -15,6 +15,9 @@ Developer @GA in NYC
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
+     font-family: 'Open Sans', sans-serif;
+  
+
 }
 
 /* Clear fix hack */
@@ -75,6 +78,144 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+.container h1 {
+  align-self: left;
+  color: white;
+  background: #033048;
+  font-size: 24px;
+  padding-left: 2%;
+  font-family: 'Open Sans';
+}
 
+.nav-container {
+  background: #033048;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Open Sans';
+  padding-left: 20%;
+}
+.nav-container ul{
+  font-family: 'Open Sans';
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items: flex-end;
+  margin-left: 50%;
+  color: yellow;
+ 
+}
+.sidebar{ 
+  float:right;
+  width: 10%;
+
+}
+
+.sidebar h2 { 
+  color: #043049;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.sidebar p { 
+  color: #043049;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 200;
+}
+
+
+.sidebar ul li { 
+  color: #043049;
+  font-size: 18px; 
+  padding: 5px 0px; }
+
+
+
+ 
+
+.articles{
+  width: 70%;
+  float:left;
+  padding-right: 0px;
+  padding-left: 2%;
+
+}
+
+.articles{
+  font-size: 15px;
+}
+
+.signup {
+
+  background-color: #033048;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 16px 32px;
+  margin: -20px -50px; 
+  position:relative;
+  top:50%; 
+  left:50%;
+
+
+  }
+
+  .signup-container {
+    margin-top: 60%;
+    background-color: #f9e42e;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 0%;
+
+    
+  }
+  
+.logo{ 
+  text-align: center; 
+  color: #f9e42e;
+  font-weight: 900;
+  font-size: 24px;
+  position: center;
+
+
+}
+
+#imagesforsm {
+  padding-left: 50%;
+  margin-top: 20px;
+}
+
+
+footer {
+  background:grey;
+  width: 100%;
+  height: 100px;
+  padding-top: 0;
+  align-items: center;
+  text-align: center
+
+}
+
+ h4 {
+  text-align: center;
+  padding-left: 10px;
+  color: #f9e42e;
+  font-size: 24px;
+  height: 100px;
+  padding-top: 10px;
+  background:grey;
+
+}
+
+.flex-container {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  background: grey;
+  
+
+}
 
 
