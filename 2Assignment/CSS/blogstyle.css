@@ -1,0 +1,282 @@
+html{
+    background-color: #f0efef;
+}
+
+
+.container{
+    top: 0;
+    background-color: #0366d6;
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    border-left: none;
+    border-top: none;
+    
+}
+
+h1{
+    color: white;
+    align-items: flex-start;
+    padding-left: 70px;
+    padding-top: 30px;
+
+
+}
+
+.flex-nav ul {
+    list-style: none;
+    margin-left: 40%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    color: yellow;
+}
+.flex-nav li{
+        align-content: center;
+        margin-bottom: 100px;
+
+
+
+}
+
+
+
+
+.implement{
+    float: left;
+    width: 50%;
+    height: 100px;
+    padding-left: 70px;
+    padding-top: 50px;
+    margin-right: 0;
+
+}
+
+
+
+
+h2{
+    color: #0366d6;
+    font-size: 40px;
+    font-weight: 800;
+}
+.blog-image{
+    float: left;
+    background-image: url(../images/blog_photo1.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 720px;
+}
+
+.paragraph{
+    float: left;
+    width: 700px;
+    padding-top: 400px;
+    padding-left: 70px;
+
+
+
+}
+.firstcharacter {
+    color:grey;
+    float: left;
+    font-family: Georgia;
+    font-size: 75px;
+    line-height: 50px;
+  
+  }
+
+  .travel{
+    float: left;
+    width: 50%;
+    height: 100px;
+    padding-left: 70px;
+    padding-top: 50px;
+    margin-right: 0;
+
+}
+
+h3{
+    color: #0366d6;
+    font-size: 40px;
+    font-weight: 800;
+}
+.blog-image2{
+    background-image: url(../images/blog_photo2.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 720px;
+}
+
+.paragraph-two{
+    float: left;
+    width: 700px;
+    padding-top: 400px;
+    padding-left: 70px;
+
+
+
+}
+.secondcharacter {
+    color: grey;
+    float: left;
+    font-family: Georgia;
+    font-size: 75px;
+    line-height: 50px;
+  
+  }
+
+
+
+
+
+
+/* ------------------------Side bar------------------------ */
+
+
+
+
+.navbar-right{
+    float:right;
+    width: 160px;
+    height:100px;
+    right: 0;
+    padding-right: 240px;
+    line-height: 30px;
+
+
+}
+
+    .navbar-nav{
+    font-size: 20px;
+    list-style: none;
+    font-weight: 400;
+    
+} 
+
+.categories{
+    padding-top:122px;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #0366d6;
+}
+
+ 
+.navbar-middleright li {
+    width:160px;
+    list-style: none;
+   
+}
+     
+
+
+.about-relaxr{
+    color: #0366d6;
+    list-style: none;
+    font-size: 32px;
+    font-weight: 800;
+    padding-top: 30px;
+} 
+
+.learn-more{
+    color: #0366d6;
+}
+
+
+.adspace{
+    background-image: url(../images/ad-unit.png);
+    background-repeat: none;
+    background-size:cover;
+
+    float:right;
+    width: 160px;
+    height:300px;
+    right: 0;
+    margin-left: 15px;
+}
+
+
+
+/*  -------------------------------Footer --------------------------------------------------*/
+#footer{
+    bottom:0;
+    width: 100%;
+    height:1300px;
+    align-content: center;
+}
+
+.yellowcontainer{
+    background-color: yellow;
+    font: 12px ;
+    height: 90px;
+    width: 100%;
+    font-weight: 800;
+    
+
+
+}
+.signup{
+ font:14px;
+ height: 30px;
+ width:220px;
+ font-weight: 800;
+ background-color: #033048;
+ color: white;
+ text-align: center;
+ align-content: center;
+ border-radius: 5px;
+
+    }
+
+.footrelaxr{
+    background-color: rgb(68, 66, 66);
+    height: 190px;
+    width: 100%;
+    padding-top: 15px;
+
+}
+.copyright{
+    font: 9px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+
+
+/* background color: #f0efef 
+yellow: #f9e42e
+dark blue: #033048
+light grey: #606161
+almost black: #121212
+
+Font: Open Sans (Google Font: https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans)
+Weight: Light, Light Italic, Semibold, Extrabold
+
+Nav: Semibold, 24px
+
+Main column width: 700px
+Sidebar width: 240px
+Gutter: 20px
+
+Post Titles - 40px, semibold
+"How I implemented Relaxr in 2 weeks and changed my life."
+"I traveled across the globe thanks to Relaxr’s Excel automation"
+
+Body text - Light 24px
+Read More - 24px semibold
+
+Sidebar headers - 32px, extra bold
+Categories list - 24px, light
+"Success stories
+Stats
+How tos
+Best of
+Business tips"
+
+About text - 22px light
+Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.
+Learn More - Semibold, 22 */
