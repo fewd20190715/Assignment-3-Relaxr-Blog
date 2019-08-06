@@ -1,0 +1,165 @@
+div, header, footer {
+    background-color: lightgrey;
+}
+
+header {
+    height: 200px;
+    background-color: navy;
+}
+
+header h1 {
+    color: white;
+    float: left;
+    font-size: 70px;
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: 18%;
+}
+
+header a {
+    color: yellow;
+    float: left;
+    font-size: 30px;
+    margin-top: 6%;
+    margin-right: 4%;
+}
+
+div {
+    height: 500px;
+    float: left;
+}
+
+.container2 {
+    width: 72%;
+    height: 2300px;
+}
+
+.container2 h1 {
+    font-size: 50px;
+    margin-left: 15%;
+    width:80%;
+}
+
+.container2 img {
+    width: 80%;
+    margin-bottom: 10px;
+    margin-left: 15%;
+}
+
+.container2 p {
+    width: 80%;  
+    font-size: 25px;
+    margin-left: 15%;
+}
+
+.container2 strong {
+    font-size: 75px;
+    float: left;
+}
+
+.container2 a {
+    float: left;
+    margin-left: 79%;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container2 hr {
+    float: left;
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 15%;
+}
+
+.container2 h2 {
+    font-size: 45px;
+    margin-top: 20px;
+    margin-left: 15%;
+    float: left;
+    width: 80%;
+}
+
+.container3 {
+    height: 2300px;
+    width: 28%;
+}
+
+.container3 h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 40px;
+    float: left;
+    width: 100%;
+}
+
+.container3  a {
+    font-size: 25px;
+    float: left;
+    margin-right: 200px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.container3 p {
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.container3 h1 {
+    float: left;
+    border: 1px solid white;
+    background-color: white;
+    width: 99%;
+    height: 600px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.container4 {
+    height: 200px;
+    width: 100%;
+    clear: both;
+    background-color: yellow;
+
+}
+
+.container4 button {
+    padding: 10px 50px;
+    font-size: 30px;
+    border-radius: 5px;
+    display: block;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 35px;
+}
+
+footer {
+    height: 400px;
+    clear: both;
+    background-color: black;
+    text-align: center;
+}
+
+footer h1 {
+    color: yellow;
+    font-size: 60px;
+    padding-top: 50px;
+}
+
+footer a {
+    width: 100%;
+    margin-right: 2%;
+}
+
+footer p {
+    color: yellow;
+    margin-top: 90px;
+    font-size: 20px;
+}
+
