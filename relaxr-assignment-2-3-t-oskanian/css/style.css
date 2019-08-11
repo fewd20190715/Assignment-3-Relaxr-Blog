@@ -248,12 +248,12 @@ div.blog-post {
 div.blog-post > a:hover {
   color: grey;
 }
-#read-more {
+/* #read-more {
 	display: none;
 }
 #read-more:target {
 	display: block;
-}
+} */
 .blog-post a {
   font-size: 24px;
   font-weight: 600;
