@@ -24,5 +24,10 @@ function readLess2() {
    $('#less-content2').hide();
    $('#more-content2').show();
 }
+$('#learn-more').click(LearnMore)
+function LearnMore() {
+$('#learn-more-content').slideDown();
+$('#learn-more').hide();
+}
 });
 
